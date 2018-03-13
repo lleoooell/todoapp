@@ -1,0 +1,26 @@
+{
+  "name": "todoapp",
+  "description": "simple todo app",
+  "main": "./client/app.main.js",
+  "authors": [
+    "leo casagrande"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lleoooell/todoapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/static/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.9",
+    "angular-ui-router": "^1.0.15",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
+    "angular-resource": "^1.6.9",
+    "lodash": "^4.17.5"
+  }
+}

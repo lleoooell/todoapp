@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>hello</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<base href="/">
+	</head>
+	<body ng-app="todoapp" >
+		<div class="container">
+			<ui-view></ui-view>
+		</div>
+		<script type="text/javascript" src="/assets/lib/socket.io-client/dist/socket.io.js"></script>
+		<script type="text/javascript" src="/assets/lib/angular/angular.js"></script>
+		<script type="text/javascript" src="/assets/lib/angular-ui-router/release/angular-ui-router.js"></script>
+		<script type="text/javascript" src="/assets/lib/angular-resource/angular-resource.js"></script>
+		<script type="text/javascript" src="/assets/lib/lodash/lodash.js"></script>
+
+		<script type="text/javascript" src="/app/app.main.js"></script>
+		<script type="text/javascript" src="/app/config/config.routes.js"></script>
+		<script type="text/javascript" src="/app/controller/home.ctrl.js"></script>
+		<script type="text/javascript" src="/app/services/todo.factory.js"></script>
+		<script type="text/javascript">
+			const socket = io();
+		</script>
+	</body>
+</html>

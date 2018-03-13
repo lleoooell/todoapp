@@ -1,0 +1,21 @@
+.red{
+	color: red;
+}
+
+.centerTitle{
+	text-align: center;
+}
+
+.todoList{
+	list-style: none;
+}
+.todoList li{
+	border-bottom: 1px solid grey;
+}
+
+.completed{
+	text-decoration: line-through;
+}
+.tod{
+	cursor: pointer;
+}
