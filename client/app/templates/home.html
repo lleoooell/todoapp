@@ -1,5 +1,6 @@
 <h1 class="centerTitle">TODO APP</h1>
-<button class="btn btn-primary" ng-click="test = !test">+</button>
+<div class="col-md-4 col-md-offset-4" style="margin-bottom:20px;">
+	<button class="btn btn-primary" ng-click="test = !test">+</button>
 <div ng-if='test' style="padding-top:20px;">
 	<form  >
 		<div class="form-group">
@@ -14,6 +15,7 @@
 		
 	</form>
 	<button ng-click="addTodo(todo)" class="btn btn-default">Ajouter</button>
+</div>
 </div>
 <div class="row">
 	<div class="col-md-4 col-md-offset-4">
