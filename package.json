@@ -1,0 +1,19 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "simple todo app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lleoooell/todoapp.git"
+  },
+  "author": "leo casagrande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lleoooell/todoapp/issues"
+  },
+  "homepage": "https://github.com/lleoooell/todoapp#readme"
+}
